@@ -1,0 +1,182 @@
+[
+    {
+      "id": 1,
+      "title": "Things Fall Apart",
+      "author": "Chinua Achebe",
+      "description": "A classic of African literature that tells the story of Okonkwo, a respected warrior in the Umuofia clan.",
+      "coverUrl": "https://covers.openlibrary.org/b/id/8227347-L.jpg",
+      "publishDate": "1958-01-01T00:00:00.000Z",
+      "dateAdded": "2020-12-15T00:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "title": "Fairy tales",
+      "author": "Hans Christian Andersen",
+      "description": "A collection of beloved fairy tales including The Little Mermaid, The Snow Queen, and The Ugly Duckling.",
+      "coverUrl": "https://covers.openlibrary.org/b/id/7994704-L.jpg",
+      "publishDate": "1836-01-01T00:00:00.000Z",
+      "dateAdded": "2024-04-14T00:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "title": "The Divine Comedy",
+      "author": "Dante Alighieri",
+      "description": "An epic poem that follows Dante's journey through Hell, Purgatory, and Paradise.",
+      "coverUrl": "https://covers.openlibrary.org/b/id/8208322-L.jpg",
+      "publishDate": "1315-01-01T00:00:00.000Z",
+      "dateAdded": "2019-09-19T00:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "title": "The Epic Of Gilgamesh",
+      "author": "Unknown",
+      "description": "An ancient Mesopotamian poem that follows the adventures of King Gilgamesh.",
+      "coverUrl": "https://covers.openlibrary.org/b/id/10447847-L.jpg",
+      "publishDate": "-1700-01-01T00:00:00.000Z",
+      "dateAdded": "2024-05-12T00:00:00.000Z"
+    },
+    {
+      "id": 5,
+      "title": "The Book Of Job",
+      "author": "Unknown",
+      "description": "A profound meditation on human suffering and divine justice from the Hebrew Bible.",
+      "coverUrl": "https://covers.openlibrary.org/b/id/8111354-L.jpg",
+      "publishDate": "-0600-01-01T00:00:00.000Z",
+      "dateAdded": "2024-07-28T00:00:00.000Z"
+    },
+    {
+      "id": 6,
+      "title": "One Thousand and One Nights",
+      "author": "Unknown",
+      "description": "A collection of Middle Eastern folk tales compiled over many centuries.",
+      "coverUrl": "https://covers.openlibrary.org/b/id/10237789-L.jpg",
+      "publishDate": "1200-01-01T00:00:00.000Z",
+      "dateAdded": "2024-01-10T00:00:00.000Z"
+    },
+    {
+      "id": 7,
+      "title": "Njál's Saga",
+      "author": "Unknown",
+      "description": "An Icelandic saga that tells the story of a 50-year blood feud.",
+      "coverUrl": "https://covers.openlibrary.org/b/id/10766117-L.jpg",
+      "publishDate": "1350-01-01T00:00:00.000Z",
+      "dateAdded": "2024-01-09T00:00:00.000Z"
+    },
+    {
+      "id": 8,
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "description": "A romantic novel following Elizabeth Bennet as she deals with issues of manners, upbringing, and marriage.",
+      "coverUrl": "https://covers.openlibrary.org/b/id/7199255-L.jpg",
+      "publishDate": "1813-01-01T00:00:00.000Z",
+      "dateAdded": "2022-01-22T00:00:00.000Z"
+    },
+    {
+      "id": 9,
+      "title": "Le Père Goriot",
+      "author": "Honoré de Balzac",
+      "description": "A masterpiece of French literature about a father's sacrifice for his daughters.",
+      "coverUrl": "https://covers.openlibrary.org/b/id/7974051-L.jpg",
+      "publishDate": "1835-01-01T00:00:00.000Z",
+      "dateAdded": "2024-01-07T00:00:00.000Z"
+    },
+    {
+      "id": 10,
+      "title": "Molloy, Malone Dies, The Unnamable, the trilogy",
+      "author": "Samuel Beckett",
+      "description": "A groundbreaking trilogy of novels that pushed the boundaries of narrative fiction.",
+      "coverUrl": "https://covers.openlibrary.org/b/id/10302453-L.jpg",
+      "publishDate": "1952-01-01T00:00:00.000Z",
+      "dateAdded": "2024-01-06T00:00:00.000Z"
+    },
+    {
+      "id": 11,
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "description": "A novel depicting the American Dream and the Jazz Age in the 1920s.",
+      "coverUrl": "https://covers.openlibrary.org/b/id/7886936-L.jpg",
+      "publishDate": "1925-04-10T00:00:00.000Z",
+      "dateAdded": "2024-01-05T00:00:00.000Z"
+    },
+    {
+      "id": 12,
+      "title": "1984",
+      "author": "George Orwell",
+      "description": "A dystopian novel exploring themes of surveillance and totalitarianism.",
+      "coverUrl": "https://covers.openlibrary.org/b/id/7312039-L.jpg",
+      "publishDate": "1949-06-08T00:00:00.000Z",
+      "dateAdded": "2024-01-04T00:00:00.000Z"
+    },
+    {
+      "id": 13,
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "description": "A poignant story about racial injustice and moral growth.",
+      "coverUrl": "https://covers.openlibrary.org/b/id/7856922-L.jpg",
+      "publishDate": "1960-07-11T00:00:00.000Z",
+      "dateAdded": "2024-01-03T00:00:00.000Z"
+    },
+    {
+      "id": 14,
+      "title": "War and Peace",
+      "author": "Leo Tolstoy",
+      "description": "An epic novel about Russian society during the Napoleonic era.",
+      "coverUrl": "https://covers.openlibrary.org/b/id/12255423-L.jpg",
+      "publishDate": "1869-01-01T00:00:00.000Z",
+      "dateAdded": "2024-01-02T00:00:00.000Z"
+    },
+    {
+      "id": 15,
+      "title": "Moby-Dick",
+      "author": "Herman Melville",
+      "description": "A gripping tale of a sea captain's obsession with a white whale.",
+      "coverUrl": "https://covers.openlibrary.org/b/id/7199261-L.jpg",
+      "publishDate": "1851-11-14T00:00:00.000Z",
+      "dateAdded": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 16,
+      "title": "Don Quixote",
+      "author": "Miguel de Cervantes",
+      "description": "A satirical novel about the adventures of a self-proclaimed knight-errant.",
+      "coverUrl": "https://covers.openlibrary.org/b/id/8287097-L.jpg",
+      "publishDate": "1605-01-01T00:00:00.000Z",
+      "dateAdded": "2023-12-30T00:00:00.000Z"
+    },
+    {
+      "id": 17,
+      "title": "The Odyssey",
+      "author": "Homer",
+      "description": "An ancient Greek epic following Odysseus' journey home from the Trojan War.",
+      "coverUrl": "https://covers.openlibrary.org/b/id/7974475-L.jpg",
+      "publishDate": "-0700-01-01T00:00:00.000Z",
+      "dateAdded": "2023-12-29T00:00:00.000Z"
+    },
+    {
+      "id": 18,
+      "title": "The Divine Comedy",
+      "author": "Dante Alighieri",
+      "description": "A journey through Hell, Purgatory, and Heaven in poetic form.",
+      "coverUrl": "https://covers.openlibrary.org/b/id/12256303-L.jpg",
+      "publishDate": "1320-01-01T00:00:00.000Z",
+      "dateAdded": "2023-12-28T00:00:00.000Z"
+    },
+    {
+      "id": 19,
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "description": "A novel capturing teenage angst and alienation in post-WWII America.",
+      "coverUrl": "https://covers.openlibrary.org/b/id/7884350-L.jpg",
+      "publishDate": "1951-06-16T00:00:00.000Z",
+      "dateAdded": "2023-12-27T00:00:00.000Z"
+    },
+    {
+      "id": 20,
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "description": "A dystopian story about a future society driven by technological advancements.",
+      "coverUrl": "https://covers.openlibrary.org/b/id/7892509-L.jpg",
+      "publishDate": "1932-01-01T00:00:00.000Z",
+      "dateAdded": "2023-12-26T00:00:00.000Z"
+    }
+  ]

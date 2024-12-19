@@ -1,1 +1,45 @@
-<p>landing works!</p>
+<app-nav></app-nav>
+
+<div class="search-container">
+  <input
+    type="text"
+    [(ngModel)]="searchTerm"
+    (ngModelChange)="onSearch($event)"
+    placeholder="Search for books..."
+    class="search-input"
+  >
+</div>
+
+<div class="content">
+  @if (searchTerm && searchResults.length > 0) {
+    <section class="search-results">
+      <h2>Search Results</h2>
+      <div class="book-grid">
+        @for (book of searchResults; track book.id) {
+          <div class="book-card">
+            <img [src]="book.coverUrl" [alt]="book.title">
+            <h3>{{ book.title }}</h3>
+            <p class="author">{{ book.author }}</p>
+            <p class="description">{{ book.description }}</p>
+          </div>
+        }
+      </div>
+    </section>
+  } @else if (searchTerm) {
+    <p>No books found matching your search.</p>
+  } @else {
+    <section class="latest-books">
+      <h2>Latest Books</h2>
+      <div class="book-grid">
+        @for (book of latestBooks; track book.id) {
+          <div class="book-card">
+            <img [src]="book.coverUrl" [alt]="book.title">
+            <h3>{{ book.title }}</h3>
+            <p class="author">{{ book.author }}</p>
+            <p class="description">{{ book.description }}</p>
+          </div>
+        }
+      </div>
+    </section>
+  }
+</div>

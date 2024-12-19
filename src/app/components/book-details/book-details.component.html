@@ -1,0 +1,18 @@
+<main class="content">
+  @if (book) {
+    <article class="book-details">
+      <div class="image-container">
+        <img [src]="book.coverUrl" [alt]="book.title" loading="lazy">
+      </div>
+      <div class="info">
+        <h1>{{ book.title }}</h1>
+        <p class="author">by {{ book.author }}</p>
+        <p class="description">{{ book.description }}</p>
+        <p class="publish-date">Published: {{ book.publishDate | date:'longDate' }}</p>
+        <button class="back-button" (click)="goBack()">Back to Books</button>
+      </div>
+    </article>
+  } @else {
+    <p>Book not found</p>
+  }
+</main>

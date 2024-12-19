@@ -1,0 +1,36 @@
+.pagination
+  display: flex
+  justify-content: center
+  gap: 0.5rem
+  margin-top: 2rem
+  padding: 1rem
+
+  .page-button
+    padding: 0.5rem 1rem
+    border: 1px solid #ddd
+    border-radius: 4px
+    background: white
+    cursor: pointer
+    transition: all 0.2s
+
+    &:hover:not(:disabled)
+      background: #f0f0f0
+
+    &:disabled
+      opacity: 0.5
+      cursor: not-allowed
+
+    &.active
+      background: #333
+      color: white
+      border-color: #333
+
+.book-card
+  &:hover
+    cursor: pointer
+    transform: scale(1.01)
+    transition: all 0.2s
+
+.books-list h2
+  padding: 1rem 0
+

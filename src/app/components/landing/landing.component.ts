@@ -2,16 +2,15 @@ import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { Router, ActivatedRoute } from '@angular/router';
-import { BookService } from '../services/book.service';
-import { Book } from '../models/book';
+import { BookService } from '../../services/book.service';
+import { Book } from '../../models/book';
 import { debounceTime, distinctUntilChanged, switchMap } from 'rxjs/operators';
 import { Subject } from 'rxjs';
-import { NavComponent } from '../components/nav/nav.component';
 
 @Component({
   selector: 'app-landing',
   standalone: true,
-  imports: [CommonModule, FormsModule, NavComponent],
+  imports: [CommonModule, FormsModule],
   templateUrl: './landing.component.html',
   styleUrl: './landing.component.sass'
 })

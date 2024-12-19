@@ -15,22 +15,27 @@ body
 .content
   padding: 0 2rem
 
-.latest-books h2
+.search-results h2, p
   padding: 1rem 0
 
 .book-grid
   display: grid
+  gap: 2rem
   grid-template-columns: repeat(auto-fill, minmax(28vw, 1fr))
   @media (max-width: 820px)
     grid-template-columns: repeat(auto-fill, minmax(32vw, 1fr))
   @media (max-width: 480px)
     grid-template-columns: 1fr
-  gap: 2rem
 
 .book-card
   border: 1px solid #ddd
   border-radius: 8px
   padding: 1rem
+  cursor: pointer
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out
+  &:hover
+    transform: translateY(-5px)
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1)
 
   img
     width: 100%

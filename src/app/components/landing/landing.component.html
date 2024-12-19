@@ -14,7 +14,7 @@
       <h2>Search Results</h2>
       <div class="book-grid">
         @for (book of searchResults; track book.id) {
-          <div class="book-card">
+          <div class="book-card" (click)="onBookClick(book.id)">
             <img [src]="book.coverUrl" [alt]="book.title">
             <h3>{{ book.title }}</h3>
             <p class="author">{{ book.author }}</p>
@@ -30,7 +30,7 @@
       <h2>Latest Books</h2>
       <div class="book-grid">
         @for (book of latestBooks; track book.id) {
-          <div class="book-card">
+          <div class="book-card" (click)="onBookClick(book.id)">
             <img [src]="book.coverUrl" [alt]="book.title">
             <h3>{{ book.title }}</h3>
             <p class="author">{{ book.author }}</p>

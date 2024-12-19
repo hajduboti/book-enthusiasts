@@ -59,4 +59,8 @@ export class LandingComponent implements OnInit {
   performSearch(term: string) {
     this.searchSubject.next(term);
   }
+
+  onBookClick(bookId: number) {
+    this.router.navigate(['/books', bookId]);
+  }
 }
